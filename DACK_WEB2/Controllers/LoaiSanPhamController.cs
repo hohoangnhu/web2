@@ -15,7 +15,7 @@ namespace DACK_WEB2.Controllers
         {
             var dsloaisp = LoaiSanPhamBUS.ChiTiet(id).ToPagedList(page, pagesize);
             return View(dsloaisp);
-        }
+        } 
 
         // GET: LoaiSanPham/Details/5
         public ActionResult Details(int id)
